@@ -1,0 +1,64 @@
+<div id="giscus-container" class="giscus"></div>
+
+<script>
+  function getCurrentTheme() {
+    const htmlTheme = document.documentElement.getAttribute("data-theme");
+    return htmlTheme === "dark" ? "catppuccin_mocha" : "catppuccin_latte";
+  }
+
+  function loadGiscus(theme) {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.setAttribute("data-repo", "glennhenry/sl-obsidian-starter");
+    script.setAttribute("data-repo-id", "R_kgDOO8Zl2g");
+    script.setAttribute("data-category", "Example");
+    script.setAttribute("data-category-id", "DIC_kwDOO8Zl2s4CrkjY");
+    script.setAttribute("data-mapping", "pathname");
+    script.setAttribute("data-strict", "0");
+    script.setAttribute("data-reactions-enabled", "1");
+    script.setAttribute("data-emit-metadata", "0");
+    script.setAttribute("data-input-position", "bottom");
+    script.setAttribute("data-theme", theme);
+    script.setAttribute("data-lang", "en");
+    script.crossOrigin = "anonymous";
+    script.async = true;
+
+    document.getElementById("giscus-container").appendChild(script);
+  }
+
+  function changeGiscusTheme(theme) {
+    const iframe = document.querySelector("iframe.giscus-frame");
+    if (!iframe) return;
+
+    iframe.contentWindow.postMessage(
+      {
+        giscus: {
+          setConfig: { theme },
+        },
+      },
+      "https://giscus.app"
+    );
+  }
+
+  function is404() {
+    const titleEl = document.querySelector("h1[data-page-title]");
+    const pageTitle = titleEl?.textContent?.trim();
+    return pageTitle === "404";
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    if (!is404()) {
+      const theme = getCurrentTheme();
+      loadGiscus(theme);
+    }
+  });
+
+  const observer = new MutationObserver(() => {
+    changeGiscusTheme(getCurrentTheme());
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"],
+  });
+</script>
