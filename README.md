@@ -3,7 +3,7 @@
 Theme (modify the `src/assets/custom.css`)
 
 1. Changed theme color for light and dark mode (pink accent for dark, purple accent for light).
-2. Changed font size and font family of left and right sidebar and headings (to Source Code 3).
+2. Changed font size of left and right sidebar and headings.
 3. Increased content width and the spacing around. Padding top and bottom for left sidebar and padding top for main pane.
 4. Decreased spacing between links on the left and right sidebar.
 5. Use thin hairline for left and right sidebar.
