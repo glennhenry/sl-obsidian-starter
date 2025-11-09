@@ -6,6 +6,8 @@ Theme (modify the `src/assets/custom.css`)
 2. Changed font size and font family of left and right sidebar and headings (to Source Code 3).
 3. Increased content width and the spacing around. Padding top and bottom for left sidebar and padding top for main pane.
 4. Decreased spacing between links on the left and right sidebar.
+5. Use thin hairline for left and right sidebar.
+6. Use light/dark gray background for left sidebar.
 
 Docs
 
@@ -32,16 +34,16 @@ Other useful thing to add:
 
 Light theme
 
-![Preview light](./src/assets/preview-light.png)
+![Preview light](./preview-light.png)
 
 with giscus and scroll
 
-![Preview light](./src/assets/preview-light-giscus.png)
+![Preview light](./preview-light-giscus.png)
 
 Dark theme
 
-![Preview dark](./src/assets/preview-dark.png)
+![Preview dark](./preview-dark.png)
 
 with giscus and scroll
 
-![Preview light](./src/assets/preview-dark-giscus.png)
+![Preview light](./preview-dark-giscus.png)
