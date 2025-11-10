@@ -6,8 +6,7 @@ Theme (modify the `src/assets/custom.css`)
 2. Changed font size of left and right sidebar and headings.
 3. Increased content width and the spacing around. Padding top and bottom for left sidebar and padding top for main pane.
 4. Decreased spacing between links on the left and right sidebar.
-5. Use thin hairline for left and right sidebar.
-6. Use light/dark gray background for left sidebar.
+5. Use panel-based design for sidebar and main content.
 
 Docs
 
