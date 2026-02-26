@@ -1,5 +1,7 @@
 [Starlight docs](https://starlight.astro.build/) with [Obsidian theme](https://fevol.github.io/starlight-theme-obsidian/) and my own custom starter template.
 
+Sample of real website: https://glennhenry.github.io/cs-notes/
+
 Theme (modify the `src/assets/custom.css`)
 
 1. Changed theme color for light and dark mode (pink accent for dark, purple accent for light).
