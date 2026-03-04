@@ -35,16 +35,16 @@ Other useful thing to add:
 
 Light theme
 
-![Preview light](./preview-light.png)
+![Preview light](./1.png)
 
 with giscus and scroll
 
-![Preview light](./preview-light-giscus.png)
+![Preview light](./2.png)
 
 Dark theme
 
-![Preview dark](./preview-dark.png)
+![Preview dark](./3.png)
 
 with giscus and scroll
 
-![Preview light](./preview-dark-giscus.png)
+![Preview light](./4.png)
