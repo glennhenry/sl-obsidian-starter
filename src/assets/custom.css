@@ -225,7 +225,7 @@
     border: unset;
     border-left-width: 4px;
     border-left-style: solid;
-    border-radius: 0;
+    border-radius: 4px;
   }
 
   .starlight-aside--note {
