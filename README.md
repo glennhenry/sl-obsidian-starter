@@ -8,7 +8,8 @@ Theme (modify the `src/assets/custom.css`)
 2. Changed font size of left and right sidebar and headings.
 3. Increased content width and the spacing around. Padding top and bottom for left sidebar and padding top for main pane.
 4. Decreased spacing between links on the left and right sidebar.
-5. Use paper-like looking layout for main content.
+5. Make sidebar and the rest of site distinguishable through color.
+6. Added border to images and changed asides styling.
 
 Docs
 
