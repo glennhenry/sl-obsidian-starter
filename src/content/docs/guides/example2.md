@@ -49,17 +49,17 @@ Writing a good guide requires thinking about what your users are trying to do.
 ### Admonitions
 
 :::note
-Hello world
+Hello world ... [about how-to guides](#) ... `code`
 :::
 
 :::tip
-Hello world
+Hello world ... [about how-to guides](#) ... `code`
 :::
 
 :::caution
-Hello world
+Hello world ... [about how-to guides](#) ... `code`
 :::
 
 :::danger
-Hello world
+Hello world ... [about how-to guides](#) ... `code`
 :::
